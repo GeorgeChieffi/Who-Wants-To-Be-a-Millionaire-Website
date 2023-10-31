@@ -1,0 +1,61 @@
+.moneyAmounts {
+    background-color: white;
+    margin: 0.8rem;
+    border-radius: 25px;
+    min-width:max-content;
+  }
+  .question {
+    background-color: white;
+    border-radius: 90px;
+    padding: 0.5rem;
+    width: 100%;
+    transition: transform 200ms, background 200ms;
+  }
+  .question:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: white;
+  }
+  body {
+    overflow: hidden;
+  }
+  .swiperCard {
+    margin-top: 8%;
+  }
+  
+  .currMoneyDiv {
+    background-color: yellow;
+    animation: fade 1.75s infinite alternate;
+  }
+  
+  @keyframes fade {
+    0%,
+    100% {
+      background-color: white;
+    }
+    50% {
+      background-color: yellow;
+    }
+  }
+  
+  .quit {
+    background-color: white;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    width: 100%;
+    zoom: 1.03;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    transition: transform 200ms, background 200ms;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px #ffffff inset;
+  }
+  .quit:hover {
+    transform: translateY(-4px);
+  }
+  
